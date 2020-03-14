@@ -6,11 +6,29 @@
 
 /*-----------------------------------------------------------header*/
 
-.headerlogo {
-    position:absolute;
-    float: left;
+.headerall {
+    background-color: #f2f9de;
 }
 
-.headerbrand {
-    font-family: 'Baloo Thambi 2', cursive;
+.headerlogo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.headerbrand h1 {
+    font-family: "Baloo Thambi 2", sans-serif;   
+    color: #a8e038;
+    text-align: left;
+    font-size: 5rem;
+    padding-top: 90px;
+}
+
+.btn {
+    background: #ff893a;
+    border-color: #ff893a;
+    margin-left: 100px;
+}
+
+.navbar-nav mr-auto {
+    color:red;
 }
