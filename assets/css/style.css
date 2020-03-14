@@ -1,0 +1,16 @@
+/*-----------------------------------------------------------body*/
+
+
+
+
+
+/*-----------------------------------------------------------header*/
+
+.headerlogo {
+    position:absolute;
+    float: left;
+}
+
+.headerbrand {
+    font-family: 'Baloo Thambi 2', cursive;
+}
