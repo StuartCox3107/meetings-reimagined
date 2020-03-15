@@ -62,7 +62,8 @@ look and feel and the venue. Should also have an opportunity to **ENQUIRE**
 ### **Space description**
 
 This provides detail about what specific rooms there are and an overview of them. Also 
-needs a contact number.
+needs a contact number. Also a link to a **CATERING** PDF file opening in a different
+window.
 
 ### **Capacity chart**
 
@@ -85,6 +86,8 @@ It would be great in the future for users to be able to make actual bookings thr
 site and also to incorporate a dynamic pricing model.
 
 For a live site taking bookings a "Chat with us" opportunity would be desired.
+
+
 
 ---
 ## Technology used
