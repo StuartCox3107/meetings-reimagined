@@ -16,7 +16,8 @@ business to business aim.
 Given the target market of B2B, it needs to have a reasonably corporate & professional look and feel, but at the 
 same time keep up with the market trend of being somewhere that looks like a vibrant,
 exciting and interesting place. One that meeting delegates would enjoy spending a day at and one that bookers
-feel will meet the needs of those they are booking for.
+feel will meet the needs of those they are booking for. Also, the vast majority of use will
+be via desktops but of course the tablet and mobile layouts need to work.
 
 Potential bookers need to be able to see everything that is included (what 
 they get for their money), and need to be able to 
@@ -25,6 +26,7 @@ to the site.
 
 There needs to be lots of "Enquiry" opportunities present and a way of completing a form to 
 express interest and establish contact.
+
 
 
 ---
@@ -42,7 +44,13 @@ express interest and establish contact.
 ---
 ## **Wireframe mockups**
 
+### **Desktop**
+
+![Desktopwireframe](https://photos.app.goo.gl/bt3Tre81SntKXpkc9)
+
 ---
+
+
 ## **Site features**
 
 ### **Main picture**
