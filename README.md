@@ -46,7 +46,14 @@ express interest and establish contact.
 
 ### **Desktop**
 
-![Desktopwireframe](https://photos.app.goo.gl/bt3Tre81SntKXpkc9)
+[Click here to see the desktop wireframe](https://photos.app.goo.gl/tDU1KqvuEh9UxQKV7/)
+
+### **Tablet**
+[Click here to see the tablet wireframe](https://photos.app.goo.gl/aFv5jWAiamtDq97U7)
+
+### **Mobile**
+
+[Click here to see the mobile wireframe](https://photos.app.goo.gl/ZRn3KMaMA3VFJJJD9)
 
 ---
 
