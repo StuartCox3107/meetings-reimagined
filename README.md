@@ -1,5 +1,5 @@
-LOGO TO ADD
-MOCKUPS TO ADD
+<img src ="assets/images/logo.png/">
+
 
 # **meetings re-imagined**
 
@@ -13,9 +13,9 @@ business to business aim.
 
 ## **UX**
 
-Given the target market of B2B, it needs to have a reasonably corporate & professional look and feel, but at the 
+Given the target market of B2B, it needs to have a corporate & professional look and feel, but at the 
 same time keep up with the market trend of being somewhere that looks like a vibrant,
-exciting and interesting place. One that meeting delegates would enjoy spending a day at and one that bookers
+exciting and interesting place. One that meeting delegates would enjoy spending a day at, and one that bookers
 feel will meet the needs of those they are booking for. Also, the vast majority of use will
 be via desktops but of course the tablet and mobile layouts need to work.
 
@@ -24,7 +24,7 @@ they get for their money), and need to be able to
 make a decision as to whether this is a suitable venue for their meeting on one visit
 to the site. 
 
-There needs to be lots of "Enquiry" opportunities present and a way of completing a form to 
+There needs to be lots of "Enquiry" opportunities present, and a way of completing a form to 
 express interest and establish contact.
 
 
@@ -33,28 +33,30 @@ express interest and establish contact.
 ## **Client Stories**
 
     "As a corporate administrator looking to book a venue for my manager, I need the site
-    to give me everything I need to make a decision without having to return or ask questions"
+    to give me everything I need to make a decision without having to return to it, or ask questions"
 
-    "As a corporate travel agent I want to be assured that thus solution for my 
-    client is professional and rest in the knowledge that the venue will be able to deliver"
+    "As a corporate travel agent I want to be assured that this solution for my 
+    client is a professional, and I want to rest in the knowledge that the venue will be able to deliver"
 
     "As a manager, I want this venue to showcase the offer they have, and when I look at it 
-    to be re-assured that this venue will provide a productive space where my team will 
+    - to be re-assured that this venue will provide a productive space where my team will 
     be innovative and creative"
+
 ---
+
 ## **Wireframe mockups**
 
 ### **Desktop**
 
-<a href="https://photos.app.goo.gl/TGVT9eJaF16AThME8" target="_blank">Click here to see the desktop wireframe</a>
+<a href="https://photos.app.goo.gl/TGVT9eJaF16AThME8" target="_blank">Click here to see the desktop wireframe (opens in same window, click back when done)</a>
 
 ### **Tablet**
 
-<a href="https://photos.app.goo.gl/aFv5jWAiamtDq97U7" target="_blank">Click here to see the tablet wireframe</a>
+<a href="https://photos.app.goo.gl/aFv5jWAiamtDq97U7" target="_blank">Click here to see the tablet wireframe (opens in same window, click back when done)</a>
 
 ### **Mobile**
 
-<a href="https://photos.app.goo.gl/ZRn3KMaMA3VFJJJD9" target="_blank">Click here to see the mobile wireframe</a></a>
+<a href="https://photos.app.goo.gl/ZRn3KMaMA3VFJJJD9" target="_blank">Click here to see the mobile wireframe (opens in same window, click back when done)</a></a>
 
 ---
 
@@ -62,18 +64,18 @@ express interest and establish contact.
 ## **Site features**
 
 ### **Main picture**
-This needs to be big and bold and really showcase a positive aspect of the productive
+This needs to be big and bold, and really showcase a positive aspect of the product,
 it should also have another **ENQUIRE** opportunity.
 
 ### **Overview section**
 
 This should provide an overview of what is offered and provided, transport convenience,
-the main features of what is included as well as where this venue differs from others.
+the main features of what is included, as well as where this venue differs from others.
 
 ### **Carousel**
 
 This provides a further visual of what the venue looks like, and demonstrate the overall
-look and feel and the venue. Should also have an opportunity to **ENQUIRE**
+look and feel of the venue. Should also have an opportunity to **ENQUIRE**
 
 ### **Space description**
 
@@ -121,6 +123,8 @@ For a live site taking bookings a "Chat with us" opportunity would be desired.
 
 ---
 ## Testing
+
+TBC
 
 ---
 ## Deployment
