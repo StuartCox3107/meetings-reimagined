@@ -1,21 +1,16 @@
 /*-----------------------------------------------------------body*/
 
-b {
+body {
     font-size: 16px;
 }
 
-
-
-
 /*-----------------------------------------------------------header*/
-
-.headerall {
-    background-color: #f2f9de;
-}
 
 .headerlogo {
     padding-top: 50px;
     padding-bottom: 50px;
+    background-color: #ff893a;
+    float: center;
 }
 
 .headerbrand h1 {
@@ -23,15 +18,28 @@ b {
     color: #a8e038;
     text-align: left;
     font-size: 5rem;
-    padding-top: 90px;
+    background-color: #ff893a;
+    margin:0 auto;
 }
 
 .btn {
     background: #ff893a;
     border-color: #ff893a;
-    margin-left: 100px;
 }
 
-.navbar-nav mr-auto {
-    color:red;
+.navbar {
+    background-color: #a8e038;
+    padding: 0;
+    margin:0 auto;
 }
+
+#navbarnav {
+    background-color: #a8e038;
+}
+
+.headerbutton {
+    background-color: #a8e038;
+    padding-top: 120px;
+
+}
+
