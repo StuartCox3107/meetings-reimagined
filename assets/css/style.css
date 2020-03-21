@@ -30,7 +30,6 @@ body {
 .btn {
     background: #ff893a;
     border-color: #ff893a;
-    margin: 0 auto
 }
 
 .navbar {
@@ -46,6 +45,7 @@ body {
 
 .headerbutton {
     background-color: #a8e038;
-    float: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
