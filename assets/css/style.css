@@ -21,6 +21,12 @@ body {
     margin: 0 auto;
 }
 
+.headerbrand h1 {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 15%;
+}
+
 .btn {
     background: #ff893a;
     border-color: #ff893a;
@@ -35,11 +41,11 @@ body {
 
 #navbarnav {
     background-color: #a8e038;
+    font-size: 130%;
 }
 
 .headerbutton {
     background-color: #a8e038;
-    padding-top: 120px;
-    margin: 0 auto;
+    float: center;
 }
 
