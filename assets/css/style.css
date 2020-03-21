@@ -14,11 +14,9 @@ body {
     margin: 0 auto;
 }
 
-.headerbrand h1 {
+.headerbrand {
     font-family: "Baloo Thambi 2", sans-serif;   
     color: #a8e038;
-    text-align: center;
-    font-size: 5rem;
     background-color: #ff893a;
     margin: 0 auto;
 }
@@ -42,6 +40,6 @@ body {
 .headerbutton {
     background-color: #a8e038;
     padding-top: 120px;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
