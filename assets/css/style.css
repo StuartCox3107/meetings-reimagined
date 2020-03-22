@@ -27,11 +27,6 @@ body {
     margin-top: 15%;
 }
 
-.btn {
-    background: #ff893a;
-    border-color: #ff893a;
-}
-
 .navbar {
     background-color: #a8e038;
     padding: 0;
@@ -43,9 +38,20 @@ body {
     font-size: 130%;
 }
 
+
+/*-----------------------------------------------------------buttons*/
+
 .headerbutton {
     background-color: #a8e038;
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
+.btn {
+    background: #ff893a;
+    border-color: #ff893a;
+}
+
+
+
 
