@@ -1,5 +1,6 @@
-<img src ="assets/images/logo.png/">
+![logo](/assets/images/logojpg.jpg)
 
+---
 
 # **meetings re-imagined**
 
@@ -52,11 +53,11 @@ express interest and establish contact.
 
 ### **Tablet**
 
-<a href="https://photos.app.goo.gl/aFv5jWAiamtDq97U7" target="_blank">Click here to see the tablet wireframe (opens in same window, click back when done)</a>
+<a href="https://photos.app.goo.gl/y8QBAQqsnbwQ7hRN6" target="_blank">Click here to see the tablet wireframe (opens in same window, click back when done)</a>
 
 ### **Mobile**
 
-<a href="https://photos.app.goo.gl/ZRn3KMaMA3VFJJJD9" target="_blank">Click here to see the mobile wireframe (opens in same window, click back when done)</a></a>
+<a href="https://photos.app.goo.gl/PfbXd5EvafY9yug38" target="_blank">Click here to see the mobile wireframe (opens in same window, click back when done)</a></a>
 
 ---
 
