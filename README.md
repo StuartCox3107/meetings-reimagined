@@ -10,27 +10,10 @@ This is a site designed to showcase a (fictional) training and meeting centre. T
 be targeted towards corporate bookers and corporate travel agents, and has a definite
 business to business aim.
 
----
-
-## **UX**
-
-Given the target market of B2B, it needs to have a corporate & professional look and feel, but at the 
-same time keep up with the market trend of being somewhere that looks like a vibrant,
-exciting and interesting place. One that meeting delegates would enjoy spending a day at, and one that bookers
-feel will meet the needs of those they are booking for. Also, the vast majority of use will
-be via desktops but of course the tablet and mobile layouts need to work.
-
-Potential bookers need to be able to see everything that is included (what 
-they get for their money), and need to be able to 
-make a decision as to whether this is a suitable venue for their meeting on one visit
-to the site. 
-
-There needs to be lots of "Enquiry" opportunities present, and a way of completing a form to 
-express interest and establish contact.
-
-
+[Link to live site](add link here)
 
 ---
+
 ## **Client Stories**
 
     "As a corporate administrator looking to book a venue for my manager, I need the site
@@ -45,19 +28,36 @@ express interest and establish contact.
 
 ---
 
-## **Wireframe mockups**
+## **UX & Wireframes**
+
+Given the target market of B2B, it needs to have a corporate & professional look and feel, but at the 
+same time keep up with the market trend of being somewhere that looks like a vibrant,
+exciting and interesting place. One that meeting delegates would enjoy spending a day at, and one that bookers
+feel will meet the needs of those they are booking for. Also, the vast majority of use will
+be via desktops but of course the tablet and mobile layouts need to work.
+
+Potential bookers need to be able to see everything that is included (what 
+they get for their money), and need to be able to 
+make a decision as to whether this is a suitable venue for their meeting on one visit
+to the site. 
+
+There needs to be an ever-present "Enquiry" opportunities on screen, and a way of completing a form to 
+express interest and establish contact.
+
+
+### **Wireframe mockups**
 
 ### **Desktop**
 
-<a href="https://photos.app.goo.gl/TGVT9eJaF16AThME8" target="_blank">Click here to see the desktop wireframe (opens in same window, click back when done)</a>
+<a href="https://photos.app.goo.gl/RuyV8ttVY5k7dWE97" target="_blank">Click here to see the desktop wireframe (opens in same window, click back when done)</a>
 
 ### **Tablet**
 
-<a href="https://photos.app.goo.gl/y8QBAQqsnbwQ7hRN6" target="_blank">Click here to see the tablet wireframe (opens in same window, click back when done)</a>
+<a href="https://photos.app.goo.gl/USeRzLc9s91Rmk6R9" target="_blank">Click here to see the tablet wireframe (opens in same window, click back when done)</a>
 
 ### **Mobile**
 
-<a href="https://photos.app.goo.gl/PfbXd5EvafY9yug38" target="_blank">Click here to see the mobile wireframe (opens in same window, click back when done)</a></a>
+<a href="https://photos.app.goo.gl/widpvbDnDKUxZWZ87" target="_blank">Click here to see the mobile wireframe (opens in same window, click back when done)</a></a>
 
 ---
 
@@ -112,14 +112,11 @@ For a live site taking bookings a "Chat with us" opportunity would be desired.
 ## Technology used
 
 * HTML & CSS
-* [Bootstrap](https://getbootstrap.com/) - 
-* [Google Fonts](https://fonts.google.com/) - Quicksilver & Roboto Styles
-* [Font Awesome](https://fontawesome.com/) - Social Media Logos
-* [jQuery](https://jquery.com/) - Javascript needed for navbar.
-* [Popper.js](https://popper.js.org/) - Javascript needed for navbar.
-* [VSCode](https://code.visualstudio.com/) - IDE for local developement
-* [GIT](https://git-scm.com/) - Version Control
-* [GitHub](https://github.com/) - to host the repositories for this project and the live website preview
+* [Bootstrap](https://getbootstrap.com/) - For frameworks
+* [Google Fonts](https://fonts.google.com/) - Baloo Thambi font
+* [Font Awesome](https://fontawesome.com/) - Social Media & other logos
+* [Gitpod](https://www.gitpod.io/) - IDE used to code
+* [GitHub](https://github.com/) - To host the repositories for this project and the live website preview
 * [Favicon](https://favicon.io/) - Used to generate the **m** logo
 
 ---
