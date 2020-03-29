@@ -12,6 +12,7 @@ body {
     background-color: #ff893a;
     float: center;
     margin: 0 auto;
+    border: 3px solid #a8e038;
 }
 
 .headerbrand {
@@ -19,12 +20,15 @@ body {
     color: #a8e038;
     background-color: #ff893a;
     margin: 0 auto;
+    border: 3px solid #a8e038;
 }
 
 .headerbrand h1 {
     text-align: center;
     font-size: 4rem;
     margin-top: 15%;
+    max-width: 100%;
+    height: auto;
 }
 
 .navbar {
