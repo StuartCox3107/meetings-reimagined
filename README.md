@@ -84,18 +84,14 @@ This provides detail about what specific rooms there are and an overview of them
 needs a contact number. Also a link to a **CATERING** PDF file opening in a different
 window.
 
-### **Capacity chart**
 
-This shows how many people the individual rooms can accommodate dependent on
-what style of setup is required.
+### **Room information**
 
-### **Room pictures**
-
-Visual pictures of what individual rooms look like.
+Visual pictures of what individual rooms look like as well as a description of the room.
 
 ### **Contact**
 
-A contact form with Name, Email, Phone, Number attending, 
+A contact form with Name, Email, Phone, Number attending, room desired,
 and "What do you want to achieve" fields. It also needs a phone contact number.
 
 ---

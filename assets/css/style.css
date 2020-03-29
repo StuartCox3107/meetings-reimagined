@@ -43,13 +43,14 @@ body {
 
 .headerbutton {
     background-color: #a8e038;
-    padding-top: 15px;
-    padding-bottom: 15px;
 }
 
-.btn {
-    background: #ff893a;
+.enquire {
+    color: white;
+    background-color: #ff893a;
     border-color: #ff893a;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 
