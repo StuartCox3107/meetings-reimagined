@@ -59,17 +59,12 @@ body {
 
 /*-----------------------------------------------------------images*/
 
-#hero-img {
-  height:600px;
+img {
   width:100%;
+  height: auto;
+  background-repeat: no-repeat;
 }
 
-#hero-outer {
-  height:600px;
-  width:100%;
-  overflow: hidden;
-  position: relative;
-}
 
 #translucentbox, #translucentbox h1 {
   color:#a8e038;
