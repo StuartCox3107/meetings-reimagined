@@ -59,29 +59,16 @@ body {
 
 /*-----------------------------------------------------------images*/
 
-#mainimage {
+#hero-img {
   height:600px;
   width:100%;
-  background: url("/assets/images/mainpicture.png") no-repeat center center alt="main image";
-  animation-name: hero-zoom;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
 }
 
-#mainfeature {
+#hero-outer {
   height:600px;
   width:100%;
   overflow: hidden;
   position: relative;
-}
-
-@keyframes hero-zoom{
-  from{
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.1);
-  }
 }
 
 #translucentbox, #translucentbox h1 {
@@ -90,7 +77,7 @@ body {
 
 #translucentbox {
   font-size: 130%;
-  font-family: "Baloo Thambi 2", sans-serif; 
+  font-family: "Baloo&nbspThambi&nbsp2", sans-serif; 
   letter-spacing: 4px;
   width: 300px;
   height: 200px;
@@ -101,4 +88,6 @@ body {
   right: 1px;
   position: absolute;
 }
+
+
 
