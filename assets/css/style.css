@@ -85,6 +85,24 @@ img {
   top: -300px;
 }
 
+/*-----------------------------------------------------------description*/
+
+.description {
+    font-size: 110%;
+}
+
+.card-description {
+    border-color: #a8e038;
+}
+
+.card-title {
+    color: #a8e038;
+    font-weight: 700;
+}
+
+.card-text {
+    color: #36454f;
+}
 /*-----------------------------------------------------------media queries*/
 
 @media screen and (max-width: 990px) {
