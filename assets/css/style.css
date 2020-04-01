@@ -112,6 +112,14 @@ img {
     color: #a8e038;
     font-weight: 600;
 }
+
+/*-----------------------------------------------------------carousel*/
+
+.carousel {
+    top: -180px;
+    margin: 0 15px 0 15px;
+}
+
 /*-----------------------------------------------------------media queries*/
 
 @media screen and (max-width: 768px) {
