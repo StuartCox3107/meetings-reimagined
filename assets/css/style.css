@@ -90,7 +90,8 @@ img {
 .description {
     font-size: 110%;
     position: relative;
-    top: -180px;
+    top: -190px;
+    background: #fffcfc;
 }
 
 .card-description {
