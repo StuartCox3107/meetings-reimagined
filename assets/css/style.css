@@ -120,6 +120,21 @@ img {
     margin: 0 15px 0 15px;
 }
 
+/*-----------------------------------------------------------space details*/
+
+.detailsmove {
+    top: -170px;
+    margin: 0 15px 10px 15px;
+}
+
+.spacedetailheader {
+    color: #a8e038;
+    background: rgba(255, 137, 58, .7);
+    font-weight: 600;
+    font-size: 130%;
+    border: 1px solid #a8e038;
+}
+
 /*-----------------------------------------------------------media queries*/
 
 @media screen and (max-width: 768px) {
