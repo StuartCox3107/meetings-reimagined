@@ -114,11 +114,22 @@ For a live site taking bookings a "Chat with us" opportunity would be desired.
 * [Gitpod](https://www.gitpod.io/) - IDE used to code
 * [GitHub](https://github.com/) - To host the repositories for this project and the live website preview
 * [Favicon](https://favicon.io/) - Used to generate the **m** logo
+images
+JAVASCRIPT BOOTSTRAP EFFECTS
 
 ---
 ## Testing
 
 TBC
+
+---
+
+## Issues
+
+* Wireframed plan had the tablet view for the overview section as being 3 columns
+side by side. When this section was completed, the reality was that it looked better
+with the three on top of each other, as per the mobile view. The final tablet view therefore doesn't 
+match the wireframe.
 
 ---
 ## Deployment
