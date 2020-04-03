@@ -135,6 +135,12 @@ img {
     border: 1px solid #a8e038;
 }
 
+/*-----------------------------------------------------------capacity table*/
+
+.table-hover {
+    margin-top: -160px;
+}
+
 /*-----------------------------------------------------------media queries*/
 
 @media screen and (max-width: 768px) {
