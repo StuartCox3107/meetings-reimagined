@@ -63,6 +63,7 @@ img {
   width:100%;
   height: auto;
   background-repeat: no-repeat;
+  padding: 0 15px 0 15px;
 }
 
 
@@ -77,10 +78,10 @@ img {
   width: 300px;
   height: 200px;
   padding-top: 40px;
-  padding-left: 10px;
+  padding-left: 26px;
   background-color: rgba(255, 137, 58, .8);
   bottom: 150px;
-  right: 1px;
+  right: -18px;
   position: relative;
   top: -300px;
 }
@@ -138,7 +139,13 @@ img {
 /*-----------------------------------------------------------capacity table*/
 
 .table-hover {
-    margin-top: -160px;
+    margin: -160px 15px 0 15px;
+}
+
+th {
+    background: rgba(255, 137, 58, .7);
+    color: #a8e038;
+    font-weight: 800;
 }
 
 /*-----------------------------------------------------------media queries*/
