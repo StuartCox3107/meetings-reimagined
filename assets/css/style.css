@@ -58,11 +58,11 @@ body {
     color: white;
     background-color: #ff893a;
     border-color: #ff893a;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin: 15px 30px 15px 30px;
     position: fixed;
     z-index: 3;
-    width: 170px
+    width: auto;
+    right: 20px;
 }
 
 /*-----------------------------------------------------------main image*/
@@ -182,5 +182,12 @@ th {
     .capacitychart {
         display: none;
     }
+}
   
 
+
+@media screen and (max-width: 990px) {
+        .enquire {
+        right: 20px;
+        }
+}
