@@ -94,7 +94,7 @@ img {
   top: -300px;
 }
 
-/*-----------------------------------------------------------description*/
+/*-----------------------------------------------------------cards*/
 
 .description {
     font-size: 110%;
@@ -167,7 +167,20 @@ th {
 
 /*-----------------------------------------------------------picture cards*/
 
-.card
+.cardimage {
+    margin-top: 10px;
+    background: #f2f2f2;
+}
+
+.picturecardheader {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background: #ff893a;
+    border-color: #ff893a;
+}
 
 /*-----------------------------------------------------------media queries*/
 
