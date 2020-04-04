@@ -60,6 +60,9 @@ body {
     border-color: #ff893a;
     margin-top: 15px;
     margin-bottom: 15px;
+    position: fixed;
+    z-index: 3;
+    width: 170px
 }
 
 /*-----------------------------------------------------------main image*/
@@ -174,6 +177,10 @@ th {
     .card-description {
         background: rgba(255, 137, 58, .1);
         text-align: center;
+    }
+
+    .capacitychart {
+        display: none;
     }
   
 
