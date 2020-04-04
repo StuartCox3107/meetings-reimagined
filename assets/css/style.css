@@ -2,9 +2,14 @@
 
 body {
     font-size: 16px;
+    background: #f2f2f2;
 }
 
 /*-----------------------------------------------------------header*/
+
+.headerall {
+    margin: auto;
+}
 
 .headerlogo {
     padding-top: 50px;
@@ -92,7 +97,6 @@ img {
     font-size: 110%;
     position: relative;
     top: -190px;
-    background: #fffcfc;
 }
 
 .card-description {
@@ -120,6 +124,10 @@ img {
     top: -180px;
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #a8e038;
+}
+
 /*-----------------------------------------------------------space details*/
 
 .detailsmove {
@@ -137,8 +145,15 @@ img {
 
 /*-----------------------------------------------------------capacity table*/
 
-.table-hover {
-    margin: -160px 15px 0 15px;
+.capacitychart {
+    margin-right: 30px;
+} 
+
+.table {
+    margin-top: -160px;
+    margin-left: 15px;
+    border: solid 1px #cccccc;
+    background: white;
 }
 
 th {
