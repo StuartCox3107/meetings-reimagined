@@ -174,6 +174,13 @@ th {
     border-color: #ff893a;
 }
 
+/*-----------------------------------------------------------picture cards*/
+
+.contactusheader {
+    color: #a8e038;
+    text-align: center;
+}
+
 /*-----------------------------------------------------------media queries*/
 
 @media screen and (max-width: 768px) {
