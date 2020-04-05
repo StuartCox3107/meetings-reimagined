@@ -30,10 +30,9 @@ body {
 
 .headerbrand h1 {
     text-align: center;
-    font-size: 4rem;
-    margin-top: 15%;
+    font-size: auto;
+    margin-top: 30%;
     max-width: 100%;
-    height: auto;
 }
 
 .navbar {
@@ -65,7 +64,7 @@ body {
     right: 20px;
 }
 
-/*-----------------------------------------------------------main image*/
+/*-----------------------------------------------------------images*/
 
 img {
   width:100%;
@@ -89,9 +88,9 @@ img {
   padding-left: 26px;
   background-color: rgba(255, 137, 58, .8);
   position: absolute;
-  top: -300px;
-  right: -18px;
-  z-index: 10;
+  z-index: 3;
+  left: 18px;
+  top: 800px;
 }
 
 /*-----------------------------------------------------------description cards*/
@@ -178,10 +177,6 @@ th {
 
 @media screen and (max-width: 768px) {
 
-    #translucentbox {
-        display: none;
-    }
-
     .card-description {
         background: rgba(255, 137, 58, .1);
         text-align: center;
@@ -190,12 +185,17 @@ th {
     .capacitychart {
         display: none;
     }
-}
-  
+} 
 
 
 @media screen and (max-width: 990px) {
         .enquire {
         right: 20px;
         }
+}
+
+@media screen and (max-width: 1110px) {
+    #translucentbox {
+        display: none;
+    }
 }
