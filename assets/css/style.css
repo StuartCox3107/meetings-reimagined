@@ -161,6 +161,7 @@ th {
 .cardimage {
     padding-top: 20px;
     background: #f2f2f2;
+    text-align: center;
 }
 
 .picturecardheader {
@@ -191,6 +192,10 @@ th {
 @media screen and (max-width: 990px) {
         .enquire {
         right: 20px;
+        }
+
+        .avimage {
+            display: none;
         }
 }
 
