@@ -197,34 +197,10 @@ th {
 
 /*-----------------------------------------------------------footer*/
 
-footer {
+.footer {
     background-color: #a8e038;
+    font-size: 60px;
     min-height: 120px;
-    margin: 0;
-}
-
-.social-links {
-    padding-top: 30px;
-}
-
-.social-links li a i {
-    width: 50px;
-    height: 50px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 25px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #ff893a;
-}
-
-.social-links li a i:hover {
-    background: #e84610;
-}
-
-#footer-details {
-    padding: 20px;
 }
 
 /*-----------------------------------------------------------media queries*/
