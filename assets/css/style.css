@@ -175,15 +175,18 @@ th {
     border-color: #ff893a;
 }
 
-/*-----------------------------------------------------------picture cards*/
+.smlcapacity {
+    font-size: 20px;
+    color: #a8e038;
+}
+
+/*-----------------------------------------------------------form*/
 
 .contactusheader {
     color: #a8e038;
     text-align: center;
     margin-top: 30px;
 }
-
-/*-----------------------------------------------------------form*/
 
 .formsendbtn {
     margin-top: 20px;
@@ -201,6 +204,10 @@ th {
     background-color: #a8e038;
     font-size: 60px;
     min-height: 120px;
+}
+
+.navlink {
+    color: red;
 }
 
 /*-----------------------------------------------------------media queries*/
