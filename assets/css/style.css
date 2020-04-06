@@ -47,7 +47,7 @@ body {
 }
 
 
-/*-----------------------------------------------------------buttons*/
+/*-----------------------------------------------------------header button*/
 
 .headerbutton {
     background-color: #a8e038;
@@ -65,13 +65,14 @@ body {
 }
 
 
+
 /*-----------------------------------------------------------images*/
 
 img {
   width:100%;
   height: auto;
   background-repeat: no-repeat;
-  padding: 0 15px 0 15px;
+  padding: 0 15px 10px 15px;
 }
 
 
@@ -98,6 +99,7 @@ img {
 
 .description {
     font-size: 110%;
+    padding-bottom: 10px;
 }
 
 .card-description {
@@ -206,8 +208,8 @@ th {
     min-height: 120px;
 }
 
-.navlink {
-    color: red;
+.social {
+    color: #ff893a;
 }
 
 /*-----------------------------------------------------------media queries*/
