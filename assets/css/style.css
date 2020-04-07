@@ -29,8 +29,7 @@ body {
 }
 
 .headerbrand h1 {
-    text-align: center;
-    font-size: auto;
+    font-size: 320%;
     margin-top: 30%;
     max-width: 100%;
 }
@@ -63,9 +62,8 @@ body {
     right: 20px;
 }
 
-.mainenquire {
+.text-decoration-none {
     color: white;
-    text-decoration: none;
 }
 
 
