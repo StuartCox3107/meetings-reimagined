@@ -51,6 +51,7 @@ body {
 
 .headerbutton {
     background-color: #a8e038;
+    color: white;
 }
 
 .enquire {
@@ -63,7 +64,6 @@ body {
     width: auto;
     right: 20px;
 }
-
 
 
 /*-----------------------------------------------------------images*/
@@ -211,6 +211,7 @@ th {
 .social {
     color: #ff893a;
 }
+
 
 /*-----------------------------------------------------------media queries*/
 

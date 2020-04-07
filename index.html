@@ -47,7 +47,7 @@
 			</div>
 
 			<div class="col-12 col-md-6 col-lg-2 headerbutton">
-				<button type="button" class="btn btn-secondary btn-lg btn-block hvr-grow-shadow enquire" id="enquirebtn"><a href="#enquire"> 
+				<button type="button" class="btn btn-secondary btn-lg btn-block hvr-grow-shadow" id="enquirebtn"><a href="#enquire"> 
                 <i class="fas fa-envelope" aria-hidden="true"></i>      Enquire</button>
 				</a>
 			</div>
@@ -443,12 +443,13 @@
 												</div>
 											</section>
 											<!--                                                                                                                               contact section-->
-											<section>
+											
 
 												<div class="contactusheader" id="enquire">
 													<h1>ENQUIRE</h1>
 												</div>
-
+                                                
+                                                <form>
 												<div class="container">
 													<div class="row justify-content-md-center">
 														<div class="col-sm-12 col-md-8 col-lg-8">
@@ -469,14 +470,14 @@
 															<div class="col-sm-12 col-md-8 col-lg-8">
 																<div class="form-group">
 																	<label for="formGroupExampleInput">Phone</label>
-																	<input type="number" class="form-control" id="formGroupExampleInput">
+																	<input type="text" class="form-control" id="formGroupExampleInput">
                                                            </div>
 																</div>
 
 																<div class="col-sm-12 col-md-8 col-lg-8">
 																	<div class="form-group">
 																		<label for="formGroupExampleInput">Approximate number attending</label>
-																		<input type="number" class="form-control" id="formGroupExampleInput">
+																		<input type="text" class="form-control" id="formGroupExampleInput">
                                                            </div>
 																	</div>
 
@@ -513,10 +514,35 @@
 																	</div>
 																</div>
 																<div class="sendbutton">
-																	<button class="btn btn-secondary formsendbtn hvr-grow-shadow" type="submit">Send  <i class="fas fa-share"></i></button>
+																	<button class="btn btn-secondary formsendbtn hvr-grow-shadow" type="submit" data-toggle="modal" data-target="#myModal">Send  <i class="fas fa-share"></i></button>
 																</div>
+                                                            </form>
+                                                            <!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
 
-											</section>
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">THANKS!</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        We will be in touch ASAP
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+										
 
 											<!--                                                                                                                                footer-->
 
