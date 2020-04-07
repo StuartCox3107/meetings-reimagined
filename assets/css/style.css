@@ -51,11 +51,9 @@ body {
 
 .headerbutton {
     background-color: #a8e038;
-    color: white;
 }
 
 .enquire {
-    color: white;
     background-color: #ff893a;
     border-color: #ff893a;
     margin: 15px 30px 15px 30px;
@@ -63,6 +61,11 @@ body {
     z-index: 3;
     width: auto;
     right: 20px;
+}
+
+.mainenquire {
+    color: white;
+    text-decoration: none;
 }
 
 
