@@ -160,6 +160,7 @@ th {
     font-weight: 800;
 }
 
+
 /*-----------------------------------------------------------picture cards*/
 
 .cardimage {
@@ -210,7 +211,13 @@ th {
 }
 
 .social {
-    color: #ff893a;
+    color: white;
+}
+
+.footername {
+    font-size: 20%;
+    color: white;
+    margin-top: 50px;
 }
 
 
