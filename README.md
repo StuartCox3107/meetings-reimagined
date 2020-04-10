@@ -65,8 +65,7 @@ express interest and establish contact.
 ## **Site features**
 
 ### **Main picture**
-This needs to be big and bold, and really showcase a positive aspect of the product,
-it should also have another **ENQUIRE** opportunity.
+This needs to be big and bold, and really showcase a positive aspect of the product.
 
 ### **Overview section**
 
@@ -75,24 +74,25 @@ the main features of what is included, as well as where this venue differs from 
 
 ### **Carousel**
 
-This provides a further visual of what the venue looks like, and demonstrate the overall
-look and feel of the venue. Should also have an opportunity to **ENQUIRE**
-
-### **Space description**
-
-This provides detail about what specific rooms there are and an overview of them. Also 
-needs a contact number. Also a link to a **CATERING** PDF file opening in a different
-window.
+This provides a further visual of what the venue looks like in terms of individual rooms, and demonstrate the overall
+look and feel of the venue. 
 
 
-### **Room information**
+### **Capacity chart**
 
-Visual pictures of what individual rooms look like as well as a description of the room.
+Present on desktop only, shows numbers possible in individual rooms. 
+On smaller devices this information will be conveyed in the space description section also.
+
+### **Space description & room information**
+
+This provides detail about what specific rooms there are with an overview and an image of them. 
+Also a link to a **CATERING** PDF file opening in a different window and some information on 
+reception services and AV.
 
 ### **Contact**
 
-A contact form with Name, Email, Phone, Number attending, room desired,
-and "What do you want to achieve" fields. It also needs a phone contact number.
+A contact form with name, email, phone number, number attending, date wanted, room desired,
+and "What do you want to achieve" fields. 
 
 ---
 ## Future goals
@@ -108,14 +108,13 @@ For a live site taking bookings a "Chat with us" opportunity would be desired.
 ## Technology used
 
 * HTML & CSS
-* [Bootstrap](https://getbootstrap.com/) - For frameworks
+* [Bootstrap](https://getbootstrap.com/) - For frameworks inlcuding JS functionality fotr some aspects
 * [Google Fonts](https://fonts.google.com/) - Baloo Thambi font
 * [Font Awesome](https://fontawesome.com/) - Social Media & other logos
 * [Gitpod](https://www.gitpod.io/) - IDE used to code
 * [GitHub](https://github.com/) - To host the repositories for this project and the live website preview
 * [Favicon](https://favicon.io/) - Used to generate the **m** logo
-IMAGES
-JAVASCRIPT BOOTSTRAP EFFECTS
+* [Shutterstock](https://www.shutterstock.com/discover/stock-assets?kw=shutterstock&utm_source=google&utm_medium=cpc&utm_campaign=UK-en-Images-Brand&gclid=CjwKCAjwssD0BRBIEiwA-JP5rKqPT3QeLULaZATah3sFDWE2KuV885Xd9SHiIO17Dr0ObKVn1hqY6xoCmG4QAvD_BwE&gclsrc=aw.ds) - Used for image sourcing
 
 ---
 ## Testing
@@ -134,7 +133,7 @@ match the wireframe.
 ---
 ## Deployment
 
-To deploy this page to GitHub Pages from its [GitHub repository](https://github.comxxxxxxxxxxxxxxxxxxxxxxxxx), the following steps were taken: 
+To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/StuartCox3107/meetings-reimagined), the following steps were taken: 
 
 1. From the menu items near the top of the page, select **Settings**.
 2. Scroll down to the **GitHub Pages** section.
@@ -163,3 +162,7 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 ## Credits
 
 * Richard Wells_lead for the README Deployment section
+* Basic code for translucent panel taken from CI Love Running mini-project
+* Code for image carousel control taken directly from Bootstrap example code
+* Modal for form sending pop-up taken from WS3 Schools
+* Images: Warehouse images are owned images, all other images from Shutterstock paid account
