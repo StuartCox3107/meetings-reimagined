@@ -156,8 +156,13 @@ img {
 
 th {
     background: rgba(255, 137, 58, .7);
-    color: #a8e038;
-    font-weight: 800;
+    color:white;
+    font-weight: 700;
+}
+
+.room {
+    background-color: white;
+    color: #36454f;
 }
 
 
@@ -204,21 +209,31 @@ th {
 
 /*-----------------------------------------------------------footer*/
 
-.footer {
+.footerall {
     background-color: #a8e038;
-    min-height: 50px;
+}
+
+.footer {
+    min-height: 30px;
+}
+
+.footeraddress {
+    min-height: 30px;
+    margin-top: 10px;
+    color: white;
 }
 
 .socials {
-    color: white;
     font-size: 40px;
+    color: white;
 }
 
 .footername {
     font-size: 10px;
-    color: white;
     text-align: right;
     padding-top: 30px;
+    margin-bottom: 10px;
+    color: white;
 }
 
 
