@@ -206,18 +206,19 @@ th {
 
 .footer {
     background-color: #a8e038;
-    font-size: 60px;
-    min-height: 120px;
+    min-height: 50px;
 }
 
-.social {
+.socials {
     color: white;
+    font-size: 40px;
 }
 
 .footername {
-    font-size: 20%;
+    font-size: 10px;
     color: white;
-    margin-top: 50px;
+    text-align: right;
+    padding-top: 30px;
 }
 
 
