@@ -152,7 +152,7 @@ To clone this project from GitHub:
 4. Change the current working directory to the location where you want the cloned directory to be made.
 5. Type ```git clone```, and then paste the URL you copied in Step 3.
 ```console
-git clone https://github.comxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+git clone  https://stuartcox3107.github.io/meetings-reimagined/.
 ```
 6. Press Enter. Your local clone will be created.
 
