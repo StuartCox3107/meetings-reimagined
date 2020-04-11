@@ -211,6 +211,7 @@ th {
 
 .footerall {
     background-color: #a8e038;
+    text-align: center;
 }
 
 .footer {
@@ -230,7 +231,6 @@ th {
 
 .footername {
     font-size: 10px;
-    text-align: right;
     padding-top: 30px;
     margin-bottom: 10px;
     color: white;
