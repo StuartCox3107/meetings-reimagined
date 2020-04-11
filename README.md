@@ -108,7 +108,7 @@ For a live site taking bookings a "Chat with us" opportunity would be desired.
 ## Technology used
 
 * HTML & CSS
-* [Bootstrap](https://getbootstrap.com/) - For frameworks inlcuding JS functionality fotr some aspects
+* [Bootstrap](https://getbootstrap.com/) - For frameworks inlcuding JS functionality for some aspects
 * [Google Fonts](https://fonts.google.com/) - Baloo Thambi font
 * [Font Awesome](https://fontawesome.com/) - Social Media & other logos
 * [Gitpod](https://www.gitpod.io/) - IDE used to code
@@ -152,7 +152,7 @@ To clone this project from GitHub:
 4. Change the current working directory to the location where you want the cloned directory to be made.
 5. Type ```git clone```, and then paste the URL you copied in Step 3.
 ```console
-git clone  https://stuartcox3107.github.io/meetings-reimagined/.
+git clone  https://stuartcox3107.github.io/meetings-reimagined/
 ```
 6. Press Enter. Your local clone will be created.
 
@@ -163,6 +163,6 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 
 * Richard Wells_lead for the README Deployment section
 * Basic code for translucent panel taken from CI Love Running mini-project
-* Code for image carousel control taken directly from Bootstrap example code
+* Code for image carousel control and navbar toggler taken directly from Bootstrap example code
 * Modal for form sending pop-up taken from WS3 Schools
 * Images: Warehouse images are owned images, all other images from Shutterstock paid account
