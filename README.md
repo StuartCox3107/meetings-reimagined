@@ -10,7 +10,7 @@ This is a site designed to showcase a (fictional) training and meeting centre. T
 be targeted towards corporate bookers and corporate travel agents, and has a definite
 business to business aim.
 
-[Link to live site](add link here)
+[Link to live site](https://stuartcox3107.github.io/meetings-reimagined/)
 
 ---
 
