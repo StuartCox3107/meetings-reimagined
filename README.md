@@ -1,4 +1,4 @@
-![logo](/assets/images/logojpg.jpg)
+![logo](/assets/images/logo.png/)
 
 ---
 
@@ -10,11 +10,11 @@ This is a site designed to showcase a (fictional) training and meeting centre. T
 be targeted towards corporate bookers and corporate travel agents, and has a definite
 business to business aim.
 
-[Link to live site](https://stuartcox3107.github.io/meetings-reimagined/)
+[Link to live site (opens in same window, click back when done)](https://stuartcox3107.github.io/meetings-reimagined/)
 
 ---
 
-## **Client Stories**
+## **User Stories**
 
     "As a corporate administrator looking to book a venue for my manager, I need the site
     to give me everything I need to make a decision without having to return to it, or ask questions"
@@ -27,6 +27,43 @@ business to business aim.
     be innovative and creative"
 
 ---
+
+## **Site features**
+
+### **Header**
+The enquire button needs to be fixed to give an ever present opportunity
+to get to the enquiry form.
+
+### **Main picture**
+This needs to be big and bold, and really showcase a positive aspect of the product.
+
+### **Overview section**
+
+This should provide an overview of what is offered and provided, transport convenience,
+the main features of what is included, as well as where this venue differs from others.
+
+### **Carousel**
+
+This provides a further visual of what the venue looks like in terms of individual rooms, and demonstrate the overall
+look and feel of the venue. 
+
+
+### **Capacity chart**
+
+Present on desktop only, shows numbers possible in individual rooms. 
+On smaller devices this information will be conveyed in the space description section also.
+
+### **Space description & room information**
+
+This provides detail about what specific rooms there are with an overview and an image of them. 
+Also a link to a **CATERING** PDF file opening in a different window, and some information on 
+reception services and AV.
+
+### **Contact**
+
+A contact form with name, email, phone number, number attending, date wanted, room desired,
+and "What do you want to achieve" fields. 
+
 
 ## **UX & Wireframes**
 
@@ -61,40 +98,6 @@ express interest and establish contact.
 
 ---
 
-
-## **Site features**
-
-### **Main picture**
-This needs to be big and bold, and really showcase a positive aspect of the product.
-
-### **Overview section**
-
-This should provide an overview of what is offered and provided, transport convenience,
-the main features of what is included, as well as where this venue differs from others.
-
-### **Carousel**
-
-This provides a further visual of what the venue looks like in terms of individual rooms, and demonstrate the overall
-look and feel of the venue. 
-
-
-### **Capacity chart**
-
-Present on desktop only, shows numbers possible in individual rooms. 
-On smaller devices this information will be conveyed in the space description section also.
-
-### **Space description & room information**
-
-This provides detail about what specific rooms there are with an overview and an image of them. 
-Also a link to a **CATERING** PDF file opening in a different window and some information on 
-reception services and AV.
-
-### **Contact**
-
-A contact form with name, email, phone number, number attending, date wanted, room desired,
-and "What do you want to achieve" fields. 
-
----
 ## Future goals
 
 It would be great in the future for users to be able to make actual bookings through the
@@ -102,24 +105,28 @@ site and also to incorporate a dynamic pricing model.
 
 For a live site taking bookings a "Chat with us" opportunity would be desired.
 
-
-
 ---
 ## Technology used
 
 * HTML & CSS
-* [Bootstrap](https://getbootstrap.com/) - For frameworks inlcuding JS functionality for some aspects
+* [Bootstrap](https://getbootstrap.com/) - For frameworks
 * [Google Fonts](https://fonts.google.com/) - Baloo Thambi font
 * [Font Awesome](https://fontawesome.com/) - Social Media & other logos
 * [Gitpod](https://www.gitpod.io/) - IDE used to code
 * [GitHub](https://github.com/) - To host the repositories for this project and the live website preview
 * [Favicon](https://favicon.io/) - Used to generate the **m** logo
 * [Shutterstock](https://www.shutterstock.com/discover/stock-assets?kw=shutterstock&utm_source=google&utm_medium=cpc&utm_campaign=UK-en-Images-Brand&gclid=CjwKCAjwssD0BRBIEiwA-JP5rKqPT3QeLULaZATah3sFDWE2KuV885Xd9SHiIO17Dr0ObKVn1hqY6xoCmG4QAvD_BwE&gclsrc=aw.ds) - Used for image sourcing
+* Popper.min.js & Slim.min.js for carousel and modal functionality
 
 ---
 ## Testing
 
-TBC
+* Browsers tested:
+* Screens tested using Chrome Developer tools: Galaxy F5, 
+Pixel 2 & 2 xl, IPhones 5/SE, 6/6 plus, 7/7 plus, 8, 
+8 plus, X, Ipad, Ipad pro
+  
+
 
 ---
 
@@ -166,3 +173,4 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 * Code for image carousel control and navbar toggler taken directly from Bootstrap example code
 * Modal for form sending pop-up taken from WS3 Schools
 * Images: Warehouse images are owned images, all other images from Shutterstock paid account
+* Mentor Rohit Sharma for his advice on improving the site 
