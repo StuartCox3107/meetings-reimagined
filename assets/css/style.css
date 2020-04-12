@@ -30,6 +30,7 @@ body {
 .headerbrand h1 {
     font-size: 320%;
     max-width: 100%;
+    margin-top: 30%;
 }
 
 .navbar {
@@ -51,6 +52,7 @@ body {
     background: #a8e038;
 }
 
+
 /*-----------------------------------------------------------header button*/
 
 .headerbutton {
@@ -64,10 +66,10 @@ body {
     position: fixed;
     z-index: 3;
     width: auto;
-    right: 20px;
+    right: 8px;
 }
 
-.text-decoration-none {
+.btnwhitetext {
     color: white;
 }
 
@@ -112,6 +114,7 @@ img {
     border-color: #a8e038;
     background: rgba(255, 137, 58, .15);
 }
+
 
 .card-title {
     color: #a8e038;
@@ -253,6 +256,12 @@ th {
 
     .capacitychart {
         display: none;
+    }
+
+    .enquire {
+        padding: 6px 8px;
+        font-size: 80%;
+        line-height: 1;
     }
 } 
 
