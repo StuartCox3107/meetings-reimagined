@@ -84,25 +84,6 @@ img {
 }
 
 
-#translucentbox, #translucentbox h1 {
-  color:#a8e038;
-}
-
-#translucentbox {
-  font-size: 130%;
-  font-family: "Baloo&nbspThambi&nbsp2", sans-serif; 
-  letter-spacing: 4px;
-  width: 300px;
-  height: 200px;
-  padding-top: 40px;
-  padding-left: 26px;
-  background-color: rgba(255, 137, 58, .8);
-  position: absolute;
-  z-index: 3;
-  left: 18px;
-  top: 800px;
-}
-
 /*-----------------------------------------------------------description cards*/
 
 .description {

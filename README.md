@@ -1,8 +1,7 @@
-![logo](/assets/images/logo.png/)
 
 ---
 
-# **meetings re-imagined**
+# **meetings re:imagined**
 
 ## **Aim of the site**
 
@@ -137,6 +136,9 @@ side by side. When this section was completed, the reality was that it looked be
 with the three on top of each other, as per the mobile view. The final tablet view therefore doesn't 
 match the wireframe.
 
+* Original plans had a translucent box in the main picture but I was challenged in the positioning of
+this and removed it.
+
 ---
 ## Deployment
 
@@ -169,7 +171,6 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 ## Credits
 
 * Richard Wells_lead for the README Deployment section
-* Basic code for translucent panel taken from CI Love Running mini-project
 * Code for image carousel control and navbar toggler taken directly from Bootstrap example code
 * Modal for form sending pop-up taken from WS3 Schools
 * Images: Warehouse images are owned images, all other images from Shutterstock paid account
