@@ -20,46 +20,42 @@
 	<!--header, in one row on larger screen but changing to 2 rows for smaller screens-->
 
 	<header class="container-fluid no-gutters">
-		<section class="row headerall">
-			<div class="col-6 col-md-6 col-lg-3 headerlogo mx-auto text-center">
-				<a href="index.html"><img src="assets/images/logo.png" alt="companylogo-m"></a>
+        <section class="row headerall">
+            <div class="col-6 col-md-6 col-lg-3 headerlogo mx-auto text-center">
+                <a href="index.html"><img src="assets/images/logo.png" alt="companylogo-m"></a>
             </div>
-
-			<div class="col-6 col-md-6 col-lg-3 navbar d-flex">
-				<nav class="navbar navbar-light navbar-expand-sm">
-					<!--burger toggler code copied from bootstrap toggler example code-->
-					<div class="navbarbtn">
-						<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
-                        data-target="#navbarnav" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="col-6 col-md-6 col-lg-3 navbar d-flex">
+                <nav class="navbar navbar-light navbar-expand-sm">
+                    <!--burger toggler code copied from bootstrap toggler example code-->
+                    <div class="navbarbtn">
+                        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" 
+                        data-target="#navbarnav" aria-controls="navbarNavDropdown" aria-expanded="false" 
+                        aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-					</div>
-					<div class="collapse navbar-collapse" id="navbarnav">
-						<ul class="navbar-nav mr-auto">
-							<li class="active nav-item mr-1 hvr-grow-shadow"><a class="nav-link"
-									href="index.html">Home</a></li>
-							<li class="nav-item mr-2 hvr-grow-shadow"><a class="nav-link" href="#spaces">Spaces</a></li>
-							<li class="nav-item mr-3 hvr-grow-shadow"><a class="nav-link"
-									href="assets/pdf/meetingsreimaginedmenu.pdf" target="_blank">Catering</a></li>
-						</ul>
-					</div>
-			</div>
-			</nav>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarnav">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="active nav-item mr-1 hvr-grow-shadow"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item mr-2 hvr-grow-shadow"><a class="nav-link" href="#spaces">Spaces</a></li>
+                            <li class="nav-item mr-3 hvr-grow-shadow"><a class="nav-link" href="assets/pdf/meetingsreimaginedmenu.pdf" target="_blank">Catering</a></li>
+                        </ul>
+                    </div>
+                </div>
+                </nav>
 
 			<div class="col-12 col-md-6 col-lg-4 headerbrand text-center">
-				<h1>meetings re:imagined</h1>
-			</div>
-
-			<!--fixed position enquire button linking to enquire form-->
-
-			<div class="col-12 col-md-6 col-lg-2 headerbutton">
-				<a href="#enquire" class="text-decoration-none btnwhitetext"> <button type="button" class="btn btn-secondary btn-lg btn-block hvr-grow-shadow enquire" id="enquirebtn">
-                <i class="fas fa-envelope" aria-hidden="true"></i>      Enquire</button>
-				</a>
-			</div>
-
-		</section>
-	</header>
+                <h1>meetings re:imagined</h1>
+            </div>
+            <!--fixed position enquire button linking to enquire form-->
+            
+            <div class="col-12 col-md-6 col-lg-2 headerbutton">
+                <a href="#enquire" class="text-decoration-none btnwhitetext"> <button type="button" class="btn btn-secondary btn-lg btn-block hvr-grow-shadow enquire" id="enquirebtn">
+                    <i class="fas fa-envelope" aria-hidden="true"></i>      Enquire</button>
+                </a>
+            </div>
+        </section>
+    </header>
 
 	<!--headline image section, designed to be a standout image showcasing the venue-->
 
@@ -70,18 +66,17 @@
 		<!--3 text sections with venue details, an "about us" overview-->
 
 	<div class="row description mx-auto">
-		<div class="col-sm-12 col-md-12 col-lg-4">
-			<div class="card h-100 card-description">
-				<div class="card-body">
-					<h4 class="card-title"><i class="fas fa-dna"></i> OUR DNA</h4>
-					<p class="card-text"> <span id="mr-description">meetings re:imagined</span> is a venue that aims to 
-                    deliver productive, collaborative and innovative meetings. We do this by providing fun 
-                    and creative spaces for you and your teams to be yourselves, to think clearly and to work 
-                    together to create solutions that traditional spaces do not facilitate.<br/><br/>
-                    We offer start to end packages and a range of spaces, all designed to foster this 
-                    creativity in different ways. Talk to us about your needs, and our in-house team will guide
-                        you to a solution that suits you.</p>
-				</div>
+        <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="card h-100 card-description">
+                <div class="card-body">
+                    <h4 class="card-title"><i class="fas fa-dna"></i> OUR DNA</h4>
+                    <p class="card-text"> <span id="mr-description">meetings re:imagined</span> is a venue that aims to 
+                    deliver productive, collaborative and innovative meetings. We do this by providing fun and 
+                    creative spaces for you and your teams to be yourselves, to think clearly and to work together 
+                    to create solutions that traditional spaces do not facilitate.<br/><br/>
+                    We offer start to end packages and a range of spaces, all designed to foster this creativity 
+                    in different ways. Talk to us about your needs, and our in-house team will guide you to a solution that suits you.</p>
+                </div>
 			</div>
 		</div>
 
@@ -192,235 +187,187 @@
     </div>
 
 	<!--capacity chart section, shows only on large screens to keep mobile information cleaner-->
-		<div class="capacitychart">
-            <table class="table table-hover">
-                <thead>
-                    <tr>
-                        <th scope="col tablehead">Space</th>
-                        <th scope="col tablehead"><i class="fas fa-users"></i>Capacity range</th>
-						<th scope="col tablehead"><i class="far fa-lightbulb"></i>Best for</th>
-						<th scope="col tablehead"><i class="fas fa-pound-sign"></i>Priced from</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row" class="room">Garden Room</th>
-                        <td>1 - 8</td>
-                        <td>Collaborating</td>
-                        <td>£400</td>
-                    </tr>
-                    <tr>
-                        <th scope="row" class="room">Glass Room</th>
-                        <td>1 - 20</td>
-                        <td>Collaborating or idea generating</td>
-                        <td>£650</td>
-                    </tr>
-														<tr>
-															<th scope="row" class="room">Warehouse Room</th>
-															<td>1 - 200</td>
-															<td>Anything!</td>
-															<td>£975</td>
-														</tr>
-														<tr>
-															<th scope="row" class="room">Concrete Room</th>
-															<td>1 - 20</td>
-															<td>Collaborating</td>
-															<td>£650</td>
-														</tr>
-														<tr>
-															<th scope="row" class="room">Brick Room</th>
-															<td>1 - 15</td>
-															<td>Collaborating or idea generating</td>
-															<td>£600</td>
-														</tr>
-														<tr>
-															<th scope="row" class="room">Casual Room</th>
-															<td>1 - 10</td>
-															<td>Idea generating</td>
-															<td>£500</td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
+	<div class="capacitychart">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col tablehead">Space</th>
+                    <th scope="col tablehead"><i class="fas fa-users"></i>Capacity range</th>
+					<th scope="col tablehead"><i class="far fa-lightbulb"></i>Best for</th>
+					<th scope="col tablehead"><i class="fas fa-pound-sign"></i>Priced from</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row" class="room">Garden Room</th>
+                    <td>1 - 8</td>
+                    <td>Collaborating</td>
+                    <td>£400</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="room">Glass Room</th>
+                    <td>1 - 20</td>
+                    <td>Collaborating or idea generating</td>
+                    <td>£650</td>
+                 </tr>
+                <tr>
+                    <th scope="row" class="room">Warehouse Room</th>
+                    <td>1 - 200</td>
+                    <td>Anything!</td>
+                    <td>£975</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="room">Concrete Room</th>
+                    <td>1 - 20</td>
+                    <td>Collaborating</td>
+                    <td>£650</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="room">Brick Room</th>
+                    <td>1 - 15</td>
+                    <td>Collaborating or idea generating</td>
+                    <td>£600</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="room">Casual Room</th>
+                    <td>1 - 10</td>
+                    <td>Idea generating</td>
+                    <td>£500</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <!--set of 9 bootstrap cards- pictures and description of 6 rooms plus 3 on details, AV card shows only on large screens-->
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 cardimage">
+                        <img src="assets/images/warehousecard.JPG" alt="Picture of the Warehouse room">
+                        <div class="card-body">
+                            <h5 class="card-title picturecardheader">Warehouse Room</h5>
+                            <p class="card-text">The Warehouse Room is our most flexible space, and the 
+                            possibilities are endless. Designed to be fun and flexible with few limitations. Talk to us about what it 
+                            is you want to achieve from your day, and we will be able to advise on what you can do here.</p>
+                            <p class="smlcapacity"><i class="fas fa-users"></i> 1-200</p>
+                        </div>
+                    </div>
+                </div>
 
-											<!--set of 9 bootstrap cards- pictures and description of 6 rooms plus 3 on details, AV card shows only on large screens-->
-											<section>
-												<div class="container-fluid">
-													<div class="row">
-														<div class="col-12 col-md-6 col-lg-4">
-															<div class="card h-100 cardimage">
-																<img src="assets/images/warehousecard.JPG" alt="Picture of the Warehouse room">
-																<div class="card-body">
-																	<h5 class="card-title picturecardheader">Warehouse
-																		Room</h5>
-																	<p class="card-text">The Warehouse Room is our most
-																		flexible space,
-																		and the possibilities are endless. Designed to
-																		be fun and flexible
-																		with few limitations. Talk to us about what it
-																		is you want to achieve
-																		from the day, and we will be able to advise on
-																		what you can do here.</p>
-																	<p class="smlcapacity"><i class="fas fa-users"></i>
-																		1-200</p>
-																</div>
-															</div>
-														</div>
-														<div class="col-12 col-md-6 col-lg-4">
-															<div class="card h-100 cardimage">
-																<img src="assets/images/glasscard.jpg" alt="Picture of the Glass room">
-																<div class="card-body">
-																	<h5 class="card-title picturecardheader">Glass Room
-																	</h5>
-																	<p class="card-text">The Glass Room is located on
-																		the top floor and
-																		has floor to ceiling glass as walls for the
-																		room, as well as glass in the wider space.
-																		This allows natural light to flood in, the
-																		feeling of open-ness helps
-																		stimulate the mind. Privacy is present from the
-																		fact that this room is
-																		on a floor all to itself.</p>
-																	<p class="smlcapacity"><i class="fas fa-users"></i>
-																		1-20</p>
-																</div>
-															</div>
-														</div>
-														<div class="col-12 col-md-6 col-lg-4">
-															<div class="card h-100 cardimage">
-																<img src="assets/images/concretecard.jpg" alt="Picture of the Concrete room">
-																<div class="card-body">
-																	<h5 class="card-title picturecardheader">Concrete
-																		Room</h5>
-																	<p class="card-text">The Concrete Room is desgned
-																		for business. Serious
-																		and imposing, it is a place for making
-																		decisions. There are no distractions
-																		present in the room itself, the goal of this
-																		room is one of pure
-																		productivity. If you need to get something done,
-																		do it here.</p>
-																	<p class="smlcapacity"><i class="fas fa-users"></i>
-																		1-20</p>
-																</div>
-															</div>
-														</div>
-														<div class="col-12 col-md-6 col-lg-4">
-															<div class="card h-100 cardimage">
-																<img src="assets/images/gardencard.jpg" alt="Picture of the Garden room">
-																<div class="card-body">
-																	<h5 class="card-title picturecardheader">Garden Room
-																	</h5>
-																	<p class="card-text">The Garden Room is a room at
-																		one with the elements.
-																		The connection it has with the outdoors can
-																		stimulate creativity and productivity,
-																		and allows minds to think differently. The
-																		feeling of being at one
-																		with nature is a feeling many teams find
-																		liberating.</p>
-																	<p class="smlcapacity"><i class="fas fa-users"></i>
-																		1-8</p>
-																</div>
-															</div>
-														</div>
-														<div class="col-12 col-md-6 col-lg-4">
-															<div class="card h-100 cardimage">
-																<img src="assets/images/brickcard.jpg" alt="Picture of the Brick room">
-																<div class="card-body">
-																	<h5 class="card-title picturecardheader">Brick Room
-																	</h5>
-																	<p class="card-text">The Brick Room is a stylish,
-																		loft-style space that
-																		perfectly balances minimalism and design. The
-																		space encourages teamwork and
-																		collaborative work, but the open plan aspect of
-																		the space also
-																		allows for numerous breakout working areas for
-																		the team.</p>
-																	<p class="smlcapacity"><i class="fas fa-users"></i>
-																		1-15</p>
-																</div>
-															</div>
-														</div>
-														<div class="col-12 col-md-6 col-lg-4">
-															<div class="card h-100 cardimage">
-																<img src="assets/images/casualcard.jpg" alt="Picture of the Casual room">
-																<div class="card-body">
-																	<h5 class="card-title picturecardheader">Casual Room
-																	</h5>
-																	<p class="card-text">The Casual Room is exactly
-																		that, casual.
-																		This is as far away from a traditional style
-																		meeting room as you can imagine.
-																		The funky, relaxing furniture lends itself to
-																		creative teams who
-																		need to think to achieve. This space is very
-																		free-form and is a place to
-																		use if you want to remove limits.</p>
-																	<p class="smlcapacity"><i class="fas fa-users"></i>
-																		1-10</p>
-																</div>
-															</div>
-														</div>
-														<div class="col-12 col-md-6 col-lg-4">
-															<div class="card h-100 cardimage">
-																<img src="assets/images/receptioncard.jpg" alt="Picture of Reception">
-																<div class="card-body">
-																	<h5 class="card-title picturecardheader">Reception
-																		Services</h5>
-																	<p class="card-text">Our on-site team are at hand
-																		always to ensure that your
-																		day is a success. We do not list what they will
-																		"do" as they are tasked with doing
-																		anything legal and reasonable to make your day a
-																		success. Talk to them, use them,
-																		they are there to ensure your day achieves what
-																		you plan to achieve.</p>
-																</div>
-															</div>
-														</div>
-														<div class="col-12 col-md-6 col-lg-4">
-															<div class="card h-100 cardimage">
-																<img src="assets/images/cateringcard.jpg" alt="Catering image">
-																<div class="card-body">
-																	<h5 class="card-title picturecardheader">Catering
-																	</h5>
-																	<p class="card-text">We know you need to feed your
-																		team also, and we have an
-																		arrangement with an excellent local caterer.
-																		Click the button below to see the
-																		PDF menu. This is the only thing that will be
-																		charged in addition.</p>
-																	<a href="/assets/pdf/meetingsreimaginedmenu.pdf"
-																		target="_blank"
-																		class="btn btn-secondary hvr-grow-shadow">
-																		<i class="fas fa-utensils"></i> Catering
-																	</a>
-																</div>
-															</div>
-														</div>
-														<div class="col-12 col-md-6 col-lg-4 avimage">
-															<div class="card h-100 cardimage">
-																<img src="assets/images/wifiavcard.jpg" alt="Picture of a wifi cable">
-																<div class="card-body">
-																	<h5 class="card-title picturecardheader">
-																		Connectivity & AV</h5>
-																	<p class="card-text">Lightning fast WiFi, 80"
-																		screens minimum in all rooms,
-																		remote screen connection, mood lighting,
-																		stunning Bose sound systems in all spaces,
-																		connectivity packs always at hand, video
-																		conferencing facilities in all spaces.
-																		We believe we have every need covered but if you
-																		need anything else, this can be
-																		provided through an external supplier.</p>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</section>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 cardimage">
+                        <img src="assets/images/glasscard.jpg" alt="Picture of the Glass room"> 
+                        <div class="card-body">
+                            <h5 class="card-title picturecardheader">Glass Room</h5>
+                            <p class="card-text">The Glass Room is located on the top floor and has 
+                            floor to ceiling glass as walls for the room, as well as glass in the wider space. 
+                            This allows natural light to flood in, the feeling of open-ness helps stimulate the mind. 
+                            Privacy is present from the fact that this room is on a floor all to itself.</p>
+                            <p class="smlcapacity"><i class="fas fa-users"></i> 1-20</p>
+                        </div>
+                    </div>
+                </div>
+														
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 cardimage">
+                        <img src="assets/images/concretecard.jpg" alt="Picture of the Concrete room">
+                        <div class="card-body">
+                            <h5 class="card-title picturecardheader">Concrete Room</h5>
+                            <p class="card-text">The Concrete Room is desgned for business. Serious and 
+                            imposing, it is a place for making decisions. There are no distractions present
+                            in the room itself, the goal of this room is one of pure productivity. 
+                            If you need to get something done, do it here.</p>
+                            <p class="smlcapacity"><i class="fas fa-users"></i> 1-20</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 cardimage">
+                        <img src="assets/images/gardencard.jpg" alt="Picture of the Garden room">
+                        <div class="card-body">
+                            <h5 class="card-title picturecardheader">Garden Room</h5>
+                            <p class="card-text">The Garden Room is a room at one with the elements. The 
+                            connection it has with the outdoors can stimulate creativity and productivity, 
+                            and allows minds to think differently. The feeling of being at one with nature 
+                            is a feeling many teams find liberating.</p>
+                            <p class="smlcapacity"><i class="fas fa-users"></i> 1-8</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 cardimage">
+                        <img src="assets/images/brickcard.jpg" alt="Picture of the Brick room">
+                        <div class="card-body">
+                            <h5 class="card-title picturecardheader">Brick Room</h5>
+                            <p class="card-text">The Brick Room is a stylish, loft-style space that 
+                            perfectly balances minimalism and design. The space encourages teamwork and 
+                            collaborative work, but the open plan aspect of the space also allows for 
+                            numerous breakout working areas for the team.</p>
+                            <p class="smlcapacity"><i class="fas fa-users"></i>1-15</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 cardimage">
+                        <img src="assets/images/casualcard.jpg" alt="Picture of the Casual room">
+                        <div class="card-body">
+                        <h5 class="card-title picturecardheader">Casual Room</h5>
+                        <p class="card-text">The Casual Room is exactly that, casual. This is as far 
+                        away from a traditional style meeting room as you can imagine. The funky, 
+                        relaxing furniture lends itself to creative teams who need to think to achieve. 
+                        his space is very free-form and is a place to use if you want to remove limits.</p>
+                        <p class="smlcapacity"><i class="fas fa-users"></i>	1-10</p>
+                    </div>
+				</div>
+			</div>
+														
+            <div class="col-12 col-md-6 col-lg-4">
+				<div class="card h-100 cardimage">
+				    <img src="assets/images/receptioncard.jpg" alt="Picture of Reception">
+				    <div class="card-body">
+						<h5 class="card-title picturecardheader">Reception Services</h5>
+						<p class="card-text">Our on-site team are at hand always to ensure that your 
+                        day is a success. We do not list what they will "do" as they are tasked with 
+                        doing anything legal and reasonable to make your day a success. Talk to them, 
+                        use them, they are there to ensure your day achieves what you plan to achieve.</p>
+					</div>
+				</div>
+		    </div>
+            
+            <div class="col-12 col-md-6 col-lg-4">
+				<div class="card h-100 cardimage">
+					<img src="assets/images/cateringcard.jpg" alt="Catering image">
+					<div class="card-body">
+						<h5 class="card-title picturecardheader">Catering</h5>
+						<p class="card-text">We know you need to feed your team also, and we have an arrangement with 
+                        an excellent local caterer. Click the button below to see the PDF menu. This is the only thing 
+                        that will be charged in addition.</p>
+                        <a href="assets/pdf/meetingsreimaginedmenu.pdf" target="_blank" class="btn btn-secondary hvr-grow-shadow">
+						    <i class="fas fa-utensils"></i> Catering
+                        </a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-6 col-lg-4 avimage">
+				<div class="card h-100 cardimage">
+					<img src="assets/images/wifiavcard.jpg" alt="Picture of a wifi cable">
+					<div class="card-body">
+					    <h5 class="card-title picturecardheader">Connectivity & AV</h5>
+                        <p class="card-text">Lightning fast WiFi, 80" screens minimum in all rooms, remote screen 
+                        connection, mood lighting, stunning Bose sound systems in all spaces, connectivity packs 
+                        always at hand, video conferencing facilities in all spaces. We believe we have every need 
+                        covered but if you need anything else, this can be provided through an external supplier.</p>
+				    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
 											<!--enquire section-->
 
