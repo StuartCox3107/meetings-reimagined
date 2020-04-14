@@ -43,13 +43,13 @@
                     </div>
                 </div>
                 </nav>
+                
+                <div class="col-12 col-md-6 col-lg-4 headerbrand text-center">
+                    <h1>meetings re:imagined</h1>
+                </div>
+                <!--fixed position enquire button linking to enquire form-->
 
-			<div class="col-12 col-md-6 col-lg-4 headerbrand text-center">
-                <h1>meetings re:imagined</h1>
-            </div>
-            <!--fixed position enquire button linking to enquire form-->
-            
-            <div class="col-12 col-md-6 col-lg-2 headerbutton">
+                <div class="col-12 col-md-6 col-lg-2 headerbutton">
                 <a href="#enquire" class="text-decoration-none btnwhitetext"> <button type="button" class="btn btn-secondary btn-lg btn-block hvr-grow-shadow enquire" id="enquirebtn">
                     <i class="fas fa-envelope" aria-hidden="true"></i>      Enquire</button>
                 </a>
@@ -60,7 +60,7 @@
 	<!--headline image section, designed to be a standout image showcasing the venue-->
 
 	<div>
-		<img class="mainpicture" src="assets/images/mainpicture.png" alt="Main picture of meeting room">
+        <img class="mainpicture" src="assets/images/mainpicture.png" alt="Main picture of meeting room">
     </div>
 
 		<!--3 text sections with venue details, an "about us" overview-->
@@ -77,8 +77,8 @@
                     We offer start to end packages and a range of spaces, all designed to foster this creativity 
                     in different ways. Talk to us about your needs, and our in-house team will guide you to a solution that suits you.</p>
                 </div>
-			</div>
-		</div>
+            </div>
+        </div>
 
 		<div class="col-sm-12 col-md-12 col-lg-4">
 			<div class="card h-100 card-description">
@@ -193,8 +193,8 @@
                 <tr>
                     <th scope="col tablehead">Space</th>
                     <th scope="col tablehead"><i class="fas fa-users"></i>Capacity range</th>
-					<th scope="col tablehead"><i class="far fa-lightbulb"></i>Best for</th>
-					<th scope="col tablehead"><i class="fas fa-pound-sign"></i>Priced from</th>
+                    <th scope="col tablehead"><i class="far fa-lightbulb"></i>Best for</th>
+                    <th scope="col tablehead"><i class="fas fa-pound-sign"></i>Priced from</th>
                 </tr>
             </thead>
             <tbody>
@@ -320,10 +320,10 @@
                         away from a traditional style meeting room as you can imagine. The funky, 
                         relaxing furniture lends itself to creative teams who need to think to achieve. 
                         his space is very free-form and is a place to use if you want to remove limits.</p>
-                        <p class="smlcapacity"><i class="fas fa-users"></i>	1-10</p>
+                        <p class="smlcapacity"><i class="fas fa-users"></i> 1-10</p>
                     </div>
-				</div>
-			</div>
+                </div>
+            </div>
 														
             <div class="col-12 col-md-6 col-lg-4">
 				<div class="card h-100 cardimage">
@@ -369,170 +369,136 @@
 	</div>
 </section>
 
-											<!--enquire section-->
+	<!--enquire section-->
+    <div class="contactusheader" id="enquire">
+        <h1>ENQUIRE</h1>
+    </div>
+    
+    <form>
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-sm-12 col-md-8 col-lg-8">
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Name</label>
+                        <input type="text" required="required" class="form-control" id="formGroupExampleInput">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-8 col-lg-8">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" required="required" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else</small>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-8 col-lg-8">
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Phone</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-8 col-lg-8">
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Approximate number attending</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-8 col-lg-8">
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Date wanted</label>
+                        <input type="date" class="form-control" id="formGroupExampleInput" required="required">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-8 col-lg-8">
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Preferred room</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Open to ideas</option>
+                            <option>Warehouse</option>
+                            <option>Glass</option>
+                            <option>Concrete</option>
+                            <option>Garden</option>
+                            <option>Brick</option>
+                            <option>Casual</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-8 col-lg-8">
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Anything else?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <small id="anythingelse" class="form-text text-muted">Give us some pointers on what you want to achieve</small>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-8 col-lg-8">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">Please send me more general information about meetings re:imagined</label>
+                    </div>
+                </div>
+            </div>
+            <div class="sendbutton">
+                <button class="btn btn-secondary formsendbtn hvr-grow-shadow" type="submit" data-toggle="modal" data-target="#myModal">Send  <i class="fas fa-share"></i></button>
+            </div>
+        </div>
+    </form>
 
+    <!--code taken from ws3 school for model for form sending popup-->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title">THANKS!</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">We will be in touch ASAP</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
 
-											<div class="contactusheader" id="enquire">
-												<h1>ENQUIRE</h1>
-											</div>
+	<!--footer-->
+    <div class="footerall">
+        <div class="container-fluid footer">
+            <div class="row">
+                <div class="col-12">
+                    <a href="https://www.google.co.uk/maps/@50.948134,-1.3657917,16z" target="_blank">
+                    <div class="footeraddress hvr-grow-shadow">
+                        <b><i class="fas fa-map-marker-alt"></i>  Mitchell Way, Southampton, SO18 2XU</b>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid footer">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item hvr-grow-shadow"><a class="nav-link socials" href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin social"></i></a></li>
+                        <li class="nav-item hvr-grow-shadow"><a class="nav-link socials" href="https://en-gb.facebook.com/"	target="_blank"><i class="fab fa-facebook-square social"></i></a></li>
+                        <li class="nav-item hvr-grow-shadow"><a class="nav-link socials" href="https://twitter.com/?lang=en-gb"	target="_blank"><i class="fab fa-twitter-square social"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid footer">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footername">
+                        <b>Stuart Cox 2020</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-											<form>
-												<div class="container">
-													<div class="row justify-content-md-center">
-														<div class="col-sm-12 col-md-8 col-lg-8">
-															<div class="form-group">
-																<label for="formGroupExampleInput">Name</label>
-																<input type="text" required="required" class="form-control" id="formGroupExampleInput">
-                        </div>
-															</div>
-															<div class="col-sm-12 col-md-8 col-lg-8">
-																<div class="form-group">
-																	<label for="exampleInputEmail1">Email address</label>
-																	<input type="email" required="required" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-																	<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else</small>
-																</div>
-															</div>
-															<div class="col-sm-12 col-md-8 col-lg-8">
-																<div class="form-group">
-																	<label for="formGroupExampleInput">Phone</label>
-																	<input type="text" class="form-control" id="formGroupExampleInput">
-                        </div>
-																</div>
-																<div class="col-sm-12 col-md-8 col-lg-8">
-																	<div class="form-group">
-																		<label for="formGroupExampleInput">Approximate number attending</label>
-																		<input type="text" class="form-control" id="formGroupExampleInput">
-                        </div>
-																	</div>
-																	<div class="col-sm-12 col-md-8 col-lg-8">
-																		<div class="form-group">
-																			<label for="formGroupExampleInput">Date wanted</label>
-																			<input type="date" class="form-control" id="formGroupExampleInput" required="required">
-                        </div>
-																		</div>
-																		<div class="col-sm-12 col-md-8 col-lg-8">
-																			<div class="form-group">
-																				<label for="exampleFormControlSelect1">Preferred room</label>
-																				<select class="form-control" id="exampleFormControlSelect1">
-                                <option>Open to ideas</option>
-                                <option>Warehouse</option>
-                                <option>Glass</option>
-                                <option>Concrete</option>
-                                <option>Garden</option>
-                                <option>Brick</option>
-                                <option>Casual</option>
-                            </select>
-																			</div>
-																		</div>
-																		<div class="col-sm-12 col-md-8 col-lg-8">
-																			<div class="form-group">
-																				<label for="exampleFormControlTextarea1">Anything else?</label>
-																				<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-																				<small id="anythingelse" class="form-text text-muted">Give us some pointers on what you want to achieve</small>
-																			</div>
-																		</div>
-																		<div class="col-sm-12 col-md-8 col-lg-8">
-																			<div class="form-check">
-																				<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-																				<label class="form-check-label" for="defaultCheck1">
-                                 Please send me more general information about meetings re:imagined
-                            </label>
-																			</div>
-																		</div>
-																	</div>
-																	<div class="sendbutton">
-																		<button class="btn btn-secondary formsendbtn hvr-grow-shadow" type="submit" data-toggle="modal" data-target="#myModal">Send  <i class="fas fa-share"></i></button>
-																	</div>
-																</div>
-											</form>
-											<!--code taken from ws3 school for model for form sending popup-->
-											<div class="modal" id="myModal">
-												<div class="modal-dialog">
-													<div class="modal-content">
-														<div class="modal-header">
-															<h4 class="modal-title">THANKS!</h4>
-															<button type="button" class="close" data-dismiss="modal">&times;</button>
-														</div>
-														<div class="modal-body">
-															We will be in touch ASAP
-														</div>
-														<div class="modal-footer">
-															<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-														</div>
-													</div>
-												</div>
-											</div>
+	<!--to make bootstrap carousel & toggler work-->
 
-											<!--footer-->
-											<div class="footerall">
-												<div class="container-fluid footer">
-													<div class="row">
-														<div class="col-12">
-															<a href="https://www.google.co.uk/maps/@50.948134,-1.3657917,16z"
-																target="_blank">
-																<div class="footeraddress hvr-grow-shadow">
-																	<b><i class="fas fa-map-marker-alt"></i>  Mitchell Way, Southampton, SO18 2XU</b>
-																</div>
-															</a>
-														</div>
-													</div>
-												</div>
-												<div class="container-fluid footer">
-													<div class="row">
-														<div class="col-12">
-															<ul class="nav justify-content-center">
-																<li class="nav-item hvr-grow-shadow">
-																	<a class="nav-link socials"
-																		href="https://www.linkedin.com/feed/"
-																		target="_blank">
-																		<i class="fab fa-linkedin social"></i>
-																	</a>
-																</li>
-																<li class="nav-item hvr-grow-shadow">
-																	<a class="nav-link socials"
-																		href="https://en-gb.facebook.com/"
-																		target="_blank">
-																		<i class="fab fa-facebook-square social"></i>
-																	</a>
-																</li>
-																<li class="nav-item hvr-grow-shadow">
-																	<a class="nav-link socials"
-																		href="https://twitter.com/?lang=en-gb"
-																		target="_blank">
-																		<i class="fab fa-twitter-square social"></i>
-																	</a>
-																</li>
-															</ul>
-														</div>
-													</div>
-												</div>
-												<div class="container-fluid footer">
-													<div class="row">
-														<div class="col-12">
-															<div class="footername">
-																<b>Stuart Cox 2020</b>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-
-											<!--to make bootstrap carousel & toggler work-->
-
-											<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-												integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-												crossorigin="anonymous">
-											</script>
-											<script
-												src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-												integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-												crossorigin="anonymous">
-											</script>
-											<script
-												src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-												integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-												crossorigin="anonymous">
-											</script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script	src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script	src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>
