@@ -89,13 +89,13 @@ Made using Balsamiq
 
 ### **Desktop**
 
-<a href="https://photos.app.goo.gl/RuyV8ttVY5k7dWE97" target="_blank">Click here to see the desktop wireframe (opens in same window, click back when done)</a>
-
 ![Desktopwireframe](https://i.imgur.com/8UJ7ODn.png)
 
 ### **Tablet**
 
 <a href="https://photos.app.goo.gl/USeRzLc9s91Rmk6R9" target="_blank">Click here to see the tablet wireframe (opens in same window, click back when done)</a>
+
+![Tablet wireframe](https://i.imgur.com/dgchKcD.png)
 
 ### **Mobile**
 
