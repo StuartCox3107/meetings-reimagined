@@ -85,9 +85,12 @@ express interest and establish contact.
 
 ### **Wireframe mockups**
 
+Made using Balsamiq
+
 ### **Desktop**
 
 <a href="https://photos.app.goo.gl/RuyV8ttVY5k7dWE97" target="_blank">Click here to see the desktop wireframe (opens in same window, click back when done)</a>
+[Imgur](https://i.imgur.com/cP4HcgS.png)
 
 ### **Tablet**
 
@@ -122,7 +125,7 @@ For a live site taking bookings a "Chat with us" opportunity would be desired.
 ---
 ## Testing
 
-* Browsers tested:
+* Browsers tested: Chrome, Firefox, Microsoft Edge, Internet Explorer
 * Screens tested using Chrome Developer tools: Galaxy F5, 
 Pixel 2 & 2 xl, IPhones 5/SE, 6/6 plus, 7/7 plus, 8, 
 8 plus, X, Ipad, Ipad pro
@@ -172,7 +175,7 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 ---
 ## Credits
 
-* Richard Wells_lead for the README Deployment section
+* Richard Wells_lead for the README.md Deployment section
 * Code for image carousel control and navbar toggler taken directly from Bootstrap example code
 * Modal for form sending pop-up taken from WS3 Schools
 * Images: Warehouse images are owned images, all other images from Shutterstock paid account
