@@ -1,5 +1,5 @@
 
-[Imgur](https://i.imgur.com/hMw7Uzp.png)
+![Imgur](https://i.imgur.com/hMw7Uzp.png)
 
 ---
 
