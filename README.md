@@ -90,7 +90,8 @@ Made using Balsamiq
 ### **Desktop**
 
 <a href="https://photos.app.goo.gl/RuyV8ttVY5k7dWE97" target="_blank">Click here to see the desktop wireframe (opens in same window, click back when done)</a>
-![Desktop wireframe](assets/wireframes/desktopwireframe.png)
+
+![Desktopwireframe](https://i.imgur.com/cP4HcgS.png)
 
 ### **Tablet**
 
