@@ -15,7 +15,6 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #ff893a;
-    float: center;
     margin: 0 auto;
     border: 3px solid #a8e038;
 }
@@ -106,7 +105,7 @@ img {
     color: #36454f;
 }
 
-#mr-description {
+.mr-description {
     color: #a8e038;
     font-weight: 600;
 }
@@ -124,7 +123,7 @@ img {
 }
 
 .spacedetailheader {
-    color: #a8e038;
+    color: white;
     background: rgba(255, 137, 58, .7);
     font-weight: 600;
     font-size: 130%;
@@ -257,8 +256,3 @@ th {
         }
 }
 
-@media screen and (max-width: 1110px) {
-    #translucentbox {
-        display: none;
-    }
-}
