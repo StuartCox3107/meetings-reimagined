@@ -82,20 +82,33 @@ to the site.
 There needs to be an ever-present "Enquiry" opportunities on screen, and a way of completing a form to 
 express interest and establish contact.
 
+---
 
 ### **Wireframe mockups**
 
 Made using Balsamiq
 
+---
+
 ### **Desktop**
+
+---
 
 ![Desktopwireframe](https://i.imgur.com/8UJ7ODn.png)
 
+---
+
 ### **Tablet**
+
+---
 
 ![Tablet wireframe](https://i.imgur.com/dgchKcD.png)
 
+---
+
 ### **Mobile**
+
+---
 
 ![Mobile wireframe](https://i.imgur.com/uqbALse.png)
 
@@ -104,7 +117,7 @@ Made using Balsamiq
 ## Future goals
 
 It would be great in the future for users to be able to make actual bookings through the
-site and also to incorporate a dynamic pricing model.
+site, and also to incorporate a dynamic pricing model.
 
 For a live site taking bookings a "Chat with us" opportunity would be desired.
 
@@ -128,6 +141,9 @@ For a live site taking bookings a "Chat with us" opportunity would be desired.
 * Screens tested using Chrome Developer tools: Galaxy F5, 
 Pixel 2 & 2 xl, IPhones 5/SE, 6/6 plus, 7/7 plus, 8, 
 8 plus, X, Ipad, Ipad pro
+* HTML checked with W3c HTML validator, CSS check with W3c CSS validator: Both no errors. HTML checker showing 2 warnings: One advising that
+the date picker is not supported in all browser types, addressed by using a polyfill taken from Stack Overflow (warning still present though), assumed issue resolved but unable to test on these browsers as I don't have them. Second warning that the h1
+header may be read by screen readers as a top level header left as acceptable.
   
 
 
@@ -178,4 +194,5 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 * Code for image carousel control and navbar toggler taken directly from Bootstrap example code
 * Modal for form sending pop-up taken from WS3 Schools
 * Images: Warehouse images are owned images, all other images from Shutterstock paid account
+* Code line 11: Polyfill taken from Stack Overflow to make sure date picker works on all browser versions
 * Mentor Rohit Sharma for his advice on improving the site 
