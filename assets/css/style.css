@@ -9,6 +9,7 @@ body {
 
 .headerall {
     margin: auto;
+    background-color: #a8e038;
 }
 
 .headerlogo {
@@ -27,9 +28,8 @@ body {
 }
 
 .headerbrand h1 {
-    font-size: 3.2rem;
+    font-size: 3.3rem;
     max-width: 100%;
-    margin-top: 30%;
 }
 
 .navbar {
@@ -61,11 +61,9 @@ body {
 .enquire {
     background-color: #ff893a;
     border-color: #ff893a;
-    margin: 15px 30px 15px 30px;
     position: fixed;
     z-index: 3;
     width: auto;
-    right: 8px;
 }
 
 .btnwhitetext {
@@ -146,6 +144,10 @@ th {
     background: rgba(255, 137, 58, .7);
     color:white;
     font-weight: 700;
+}
+
+thead {
+    border: 1px solid #a8e038;
 }
 
 .room {
