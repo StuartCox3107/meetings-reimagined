@@ -51,7 +51,7 @@ look and feel of the venue.
 
 ### **Capacity chart**
 
-Present on desktop only, shows numbers possible in individual rooms. 
+Present on desktop only, removed for smaller devices shows numbers possible in individual rooms. 
 On smaller devices this information will be conveyed in the space description section also.
 
 ### **Space description & room information**
@@ -72,7 +72,7 @@ Given the target market of B2B, it needs to have a corporate & professional look
 same time keep up with the market trend of being somewhere that looks like a vibrant,
 exciting and interesting place. One that meeting delegates would enjoy spending a day at, and one that bookers
 feel will meet the needs of those they are booking for. Also, the vast majority of use will
-be via desktops but of course the tablet and mobile layouts need to work.
+be via desktops, but of course the tablet and mobile layouts need to work.
 
 Potential bookers need to be able to see everything that is included (what 
 they get for their money), and need to be able to 
