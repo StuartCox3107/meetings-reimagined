@@ -94,7 +94,8 @@ Made using Balsamiq
 
 ---
 
-![Desktopwireframe](https://i.imgur.com/8UJ7ODn.png)
+![Desktop wireframe](https://imgur.com/8UJ7ODn.png)
+
 
 ---
 
@@ -194,5 +195,5 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 * Code for image carousel control and navbar toggler taken directly from Bootstrap example code
 * Modal for form sending pop-up taken from WS3 Schools
 * Images: Warehouse images are owned images, all other images from Shutterstock paid account
-* Code line 11: Polyfill taken from Stack Overflow to make sure date picker works on all browser versions
+* Code line 10 (in index.html): Polyfill taken from Stack Overflow to make sure date picker works on all browser versions
 * Mentor Rohit Sharma for his advice on improving the site 
