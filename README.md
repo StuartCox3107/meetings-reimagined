@@ -134,7 +134,7 @@ For a live site taking bookings a "Chat with us" opportunity would be desired.
 * [Favicon](https://favicon.io/) - Used to generate the **m** logo
 * [Shutterstock](https://www.shutterstock.com/discover/stock-assets?kw=shutterstock&utm_source=google&utm_medium=cpc&utm_campaign=UK-en-Images-Brand&gclid=CjwKCAjwssD0BRBIEiwA-JP5rKqPT3QeLULaZATah3sFDWE2KuV885Xd9SHiIO17Dr0ObKVn1hqY6xoCmG4QAvD_BwE&gclsrc=aw.ds) - Used for image sourcing
 * Popper.min.js & Slim.min.js for carousel and modal functionality
-
+* [Google Maps](https://www.google.com/maps) - Used for map link in footer
 ---
 ## Testing
 
